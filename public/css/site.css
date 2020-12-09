@@ -1,0 +1,1007 @@
+html{
+    font-family: "Source Han Sans", "源ノ角ゴシック", "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3", sans-serif;
+    
+}
+
+body{
+    font-family: "Source Han Sans", "源ノ角ゴシック", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+    background-color: #ffeff2;
+    color: #55595C;
+    width: 100%;
+    margin: 0px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    
+    
+}
+
+table .tdp td{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+table .tdp2 td{
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    margin: 0.1rem;
+}
+
+table .tdp3 td{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0rem;
+    margin: 0;
+}
+
+table .tdp4 td{
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+table .tdp5 td{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+table .tdd{
+    padding-right: 0;
+    padding-bottom: 0;
+    width: 10px;
+    padding-bottom: 0.5rem;
+}
+
+tr{
+    padding-bottom: 0;
+}
+
+
+.tf{
+    font-size: 0.9rem;
+}
+.tf2{
+    font-size: 0.8rem;
+}
+
+.tdf{
+    font-weight: bold;
+}
+
+.tw{
+    width: 30em;
+    padding-bottom: 0;
+}
+
+.tw2{
+    width: 20em;
+    padding-bottom: 0;
+}
+
+.tw3{
+    width: 18.5em;
+    padding-bottom: 0;
+}
+
+.tw4{
+    width: 10em;
+    padding-bottom: 0;
+}
+
+
+.dropdown-menu{
+    background-color: #f4f4f4;
+}
+
+.dropdown-item:hover{
+    background-color: #f4f4f4;
+    text-decoration: none;
+
+}
+
+.dropdown-item:active{
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+.dropdown-item:focus{
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+input.accordion-kick {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.conditions{
+    background-color: #fff0f0;
+    padding: 0;
+    margin: 0;
+
+}
+
+.condition {
+  background: #fff0f0;
+  color: 55595C;
+  overflow: hidden;/* とmax-height で消える */
+}
+
+
+.condition-label {
+  display: block;
+  justify-content: space-between;
+  padding: 0 5 0 5;
+  width: 28px;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.condition-content {
+  max-height: 0;
+  padding: 0 1em;
+  transition: all .35s;
+}
+
+/* 疑似クラス */
+/* Checked疑似クラス - チェックが入っている時のスタイル */
+input.accordion-kick:checked ~ .condition-content {
+  max-height: 100vh;
+  padding: 0 1em;
+}
+
+
+i {/*アイコン用*/
+  margin-left: auto;
+  margin-right: 100px;
+    margin: 3 0 3 0px;
+}
+
+/*アイコン*/
+.fa-plus::before{
+    content:'\f067';
+	font-family:'Font Awesome 5 Free';
+    color: white;
+    margin-right: 5px;
+    font-size: 20;
+}
+
+.clear-icon::before{/*消しゴム*/
+    content:'\f12d';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+.stuika-icon::before{/*プラスサークル*/
+    content:'\f055';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+.list-icon::before{/*リスト*/
+    content:'\f03a';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+.plus-icon::before{
+    content:'\f0fe';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    font-size: 1.1em;
+    color: #55595C;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.minus-icon::before{
+    content:'\f146';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    font-size: 1.1em;
+    color: #55595C;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.trash-icon::before{
+    content:'\f2ed';
+	font-family:'Font Awesome 5 Free';
+    font-weight:400;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+.picture-icon::before{
+    content:'\f1c5';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+.search-icon::before{
+    content:'\f002';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+.download-icon::before{
+    content:'\f019';
+	font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    color: #55595C;
+    margin-right: 5px;
+}
+
+
+/*ヘッダー*/
+header{
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+
+.sticky-top
+{/*ヘッダー固定*/
+    padding: 0;
+}
+
+h3{/*NAILS UNIQUE*/
+    color:#E198B4;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width:100%;
+}
+
+/*ナビゲーションリンク*/
+.navbar{
+    position: absolute;
+    top:20px;
+    left:215px;
+    padding-left: 3px;
+}
+
+.lpadding{/*ナビゲーションリンク用2*/
+    left:260px;
+    padding-left: 10px;
+}
+
+.text-dark{
+    color: #55595C;
+}
+
+.text-right{
+    font-size: 14px;
+}
+.textright{
+    text-align: right;
+}
+
+.fi{
+    position: fixed;
+    top: 2%;
+    right: 1%;
+}
+
+hr.pin{
+    border: 2px #E198B4 solid;
+    margin-bottom: 8px;
+}
+
+hr.pinn{
+    border-top: 2px #E198B4 solid;
+}
+
+
+li{
+    list-style: none; 
+}
+
+.list{
+    display:block; 
+}
+.shop-name{
+    display:block; 
+}
+.user-name{
+    display:block; 
+}
+
+.lis{
+    display: inline-block;
+    padding-right: 20px;    
+    margin-bottom: 5px;
+}
+
+.listt{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+listt2{
+    display: flex;
+    padding:0;
+    margin: 0;
+}
+
+.listtt{
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.pgnm{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.lab{/*テーブル内ラベル用　パディング*/
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.lab2{/*テーブル内ラベル用　パディング2*/
+    font-size: 16px;
+}
+
+
+
+.pd{/*パディング用*/
+    padding-left: 20px;
+}
+
+.ppd{/*パディング用*/
+    padding-right: 600px;
+}
+
+.ppd2{/*パディング用*/
+    padding-right: 580px;
+}
+
+.pdd{/*パディング用*/
+    padding-top: 10px;
+}
+
+.cp{/*キャンペーン用パディング*/
+    padding-left: 20px;
+}
+
+
+
+.dark{/*文字色*/
+    color: #55595C;
+    text-decoration: underline #55595C;
+}
+
+.dark:hover{
+    color: #55595C;
+}
+
+.blue{/*文字色*/
+    text-decoration: underline seagreen;
+    color: seagreen;
+}
+
+.blue:hover{/*文字色マウスオーバー*/
+    color: : seagreen;
+}
+
+.signout{/*サインアウト用文字色*/
+    color: seagreen;
+}
+
+.pink{/*文字色*/
+    color: deeppink;
+    text-decoration: underline deeppink;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.pinkk{/*文字色*/
+    color: deeppink;
+    text-decoration: underline deeppink;
+    display: inline-block;
+    padding-right: 20px;  
+    padding-left: 13px;
+}
+
+main{/*メインの幅*/
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom:10px;
+}
+
+
+.textbox{/*テキストボックス用パディング*/
+    padding-top: 5;
+    padding-bottom: 5;
+}
+.boxm{/*テキストボックス用マージン*/
+    margin-bottom: 5;
+}
+.boxmg{/*テキストボックス用マージン*/
+    margin-bottom: 8;
+}
+
+
+.font-weight-bold{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.tit{
+    text-align: right;
+    width: 97%;
+}
+
+.colo{
+    color: #E198B4;
+
+}
+
+.button{
+    margin: 0 0 0 auto;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    background-color: #E198B4;
+    color: white;
+    font-weight: bold;
+}
+
+button{
+    border: none;
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.form-control{
+    color: gray;
+    
+}
+
+.sub{
+    padding-left:5px; 
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.point{
+    background-color: #ffea80;
+    pointer-events: none;
+    padding: 5px;
+    border-radius: 3px;
+    border-width: thin;
+    width: 10em; 
+}
+
+
+.input-lg, .form-control {
+    height: 40px;
+}
+
+.form-control-lg, .form-control {
+    font-size: 15px;
+}
+
+.yubin{
+    padding: 5px;
+    height: 45px;
+    width: 140px;
+}
+
+.ymd{/*日付用*/
+    padding: 5px;
+    height: 45px;
+    width: 140px;
+}
+
+.tel{
+    padding: 5px;
+    height: 45px;
+    width: 140px;
+}
+
+.goukeikingaku{
+    padding: 5px;
+    height: 45px;
+}
+
+.goukei{
+    text-align:right;
+    padding: 5px;
+    height: 45px;
+}
+
+.customercd{
+    padding: 5px;
+    height: 45px;
+}
+
+.address{
+    padding: 5px;
+    margin-right: 20px;
+    height: 45px;
+    width:35em;
+}
+
+.comment{/*コメントボックス*/
+    padding: 5px;
+    margin-right: 20px;
+    height: 45px;
+    width:35em;
+}
+
+.tenpono{
+    padding: 5px;
+    width: 6em;
+    height: 45px;
+}
+
+.tanka{
+    text-align: right;
+    padding: 5px;
+    width: 6em;
+    height: 40px;
+}
+
+.customername{/*名前用 社員名、顧客名共通*/
+    padding: 5px;
+    width: 20em;
+    height: 45px;
+}
+
+
+.suryou{/*数量用*/
+    padding: 5px;
+    width: 4em;
+    height: 40px;
+}
+
+.menucode{/*メニューコード用*/
+    padding: 5px;
+    width: 8em;
+    height: 40px;
+}
+
+.opcode{/*オプションコード用*/
+    padding: 5px;
+    width: 8em;
+    height: 40px;
+}
+
+.tantocd{/*テーブル用　担当者コード*/
+    padding: 5px;
+    width: 8em;
+    height: 40px;
+}
+
+.tantocd2{/*テキストボックス用　担当者コード*/
+    padding: 5px;
+    width: 8em;
+    height: 45px;
+}
+
+.chcd{
+    padding: 5px;
+    width: 10em;
+    height: 40px;
+}
+
+.color{
+    padding: 5px;
+    width: 10em;
+    height: 40px;
+}
+
+.syokei{
+    text-align: right;
+    padding: 5px;
+    width: 10em;
+    height: 40px;
+}
+
+.shopnm{
+    padding: 5px;
+    height: 45px;
+    width:29em;
+}
+
+.menunaiyou{
+    padding: 5px;
+    height: 40px;
+    width:30em;
+}
+
+.opnaiyou{/*テーブル用　オプション内容*/
+    padding: 5px;
+    height: 40px;
+    width:30em;
+}
+
+.shnaiyou{/*テーブル用　商品内容*/
+    padding: 5px;
+    height: 40px;
+    width:30em;
+}
+
+.colna{/*テーブル用　色内容*/
+    padding: 5px;
+    height: 40px;
+    width:42em;
+}
+
+.ptop{/*パディング用*/
+    padding-top: 15px;
+}
+
+.memos{/*メモ用　div*/
+    padding-left: 20px;
+    width: 45em;
+    height: 45px;
+}
+
+.memo{/*メール送信・アレルギー用　メモ　単体*/
+    width:37em;
+    height: 45px;
+    padding: 5px;
+}
+
+.reason-memo{/*来店理由　メモ*/
+    border-radius: 3px;
+    width: 30em;
+    border-width: thin;
+    padding: 5px;
+}
+
+
+.form-group{/*フォーム用パディング*/
+    padding-right: 5px;
+}
+
+.form-check{/*チェックボックス用*/
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.form-check-input{/*チェックボックス用*/
+    transform: scale(1.5);
+}
+
+.btn-success{/*保存ボタン*/
+    background-color: #22664f;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    margin-bottom:2px;
+    margin-right: 5px;
+    font-size: 85%
+}
+
+.btn-outline-success{
+    color:darkgreen;
+    padding: 15px;
+    font-weight: 200
+}
+
+.fon{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.clear{
+    color: #55595C;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 5 15 10 15;
+    border-radius: 5px;
+   
+}
+
+.add{
+    color: #55595C;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 5 0 10 0;
+    border-radius: 5px;
+   
+}
+
+.add2{
+    color: #55595C;
+    background-color: white;
+    padding: 15px 25px;
+    margin: 0 10 5 0;
+    border-radius: 5px;
+   
+}
+
+
+.delete{
+    color: #55595C;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 0 40 10 0;
+    border-radius: 5px;    
+}
+
+
+.serviceadd{
+    color: #55595C;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0 15 10 15;
+    border-radius: 5px;   
+}
+
+.serviceadda{
+    color: #55595C;
+}
+
+.serviceadda:hover{
+    color: #55595C;
+    text-decoration: none;
+}
+
+.servicehis{
+    color: #55595C;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0 15 10 15;
+    border-radius: 5px;   
+}
+
+.button3{
+    color: #55595C;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0 5 10 5;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.fonts{
+    font-size: 85%;
+}
+
+p{
+    padding-top: 60px;
+}
+
+.page-link{
+    padding: 10 15 10 15;
+}
+
+.height{
+    height: 45px;
+    margin-right: 5px;
+}
+
+.thead-light{
+    background: #f4f4f4;
+}
+
+.tahead{
+    display: block;
+    padding-left: 300;
+
+}
+
+.tahead2{
+    display: block;
+    padding-left: 350;
+
+}
+
+.tahead3{
+    display: block;
+    padding-left: 50;
+
+}
+
+.tahead4{
+    display: block;
+    padding-left: 240;
+
+}
+
+
+table .padi{
+    padding-left: 260px;
+}
+table .padi2{
+    padding-left: 30px;    
+}
+table .padi3{
+    padding-left: 270px;    
+}
+table .padi4{
+    padding-left: 135px;
+}
+table .padi5{
+    padding-left: 215px;
+}
+table .padi6{
+    padding-left: 110px;
+}
+table .padi7{
+    padding-left: 280px;
+}
+
+
+.tabody{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 570px;
+
+}
+
+.tabody2{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 210px;
+
+}
+
+.tabody3{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 335px;
+
+}
+
+.tabody4{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 330px;
+
+}
+
+.tabody5{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 230px;
+    width: 400px;
+
+}
+
+
+.box {
+  margin-right: 5;
+  width: 220px;
+  height: 180px;
+  background: #cccccc;
+}
+
+.boxx{
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 450px;
+    height: 215px;
+}
+
+.item {
+      /* 横スクロール用 */
+      display: inline-block;
+    }
+
+.upload-pic {
+    background-color: white;
+    color: #55595C;
+}
+
+.upload-pic input{
+    display: none;
+}
+
+.col-md-8{
+   height: 45px;
+}
+
+.col-md-7{/*システム区分マスタ　名称ボックス*/
+    width: 240px;
+    height: 45px;
+}
+
+.col-md-6{
+    height: 45px;
+}
+
+.col-md-5{
+   height: 45px;
+    width:250px;
+    height: 45px;
+}
+
+.col-md-4{/*セレクトボックス用*/
+    padding: 0;
+    margin: 0;
+    height: 45px;
+}
+
+.col-md-12{/*セレクトボックス用*/
+    padding: 0;
+    margin: 0;
+    height: 45px;
+}
+
+.col-md-3{
+    width:150px;
+    height: 45px;
+}
+
+.col-md-2{
+    width:110px;
+    height: 45px;
+}
+
+.col-md-1{
+    padding: 0;
+    margin: 0;
+    height: 45px;
+}
+
+.rtw{/*休職・復職テーブル用*/
+    width:392px;
+}
+
+.t-background{
+    background-color: #dced90;
+}
+
+.table-fixed th:first-child,td:first-child{
+    position: sticky;
+    left:0;
+    z-index: 1;
+}
+
+.table-fixed th:nth-child(2),td:nth-child(2){
+    position: sticky;
+    left:165.5px;
+    z-index: 2;
+}
+
+.table-fixed th:nth-child(3),td:nth-child(3){
+    position: sticky;
+    left:223px;
+    z-index: 3;
+
+}
+
+.tabody6{
+     display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
