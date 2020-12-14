@@ -39,7 +39,7 @@
 
 
   <body>
-    <h1>Laravel Test タイトル</h1>
+    <h1>Laravel Test 20201214</h1>
   </body>
 
   <body>
